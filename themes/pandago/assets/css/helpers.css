@@ -1,0 +1,52 @@
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.lowercase { text-transform: lowercase; }
+
+.relative { position: relative; }
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.pandago-icons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow: auto;
+  background: #fff;
+}
+
+.pandago-icons table {
+  width: 100%;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.pandago-icons th,
+.pandago-icons td {
+  padding: 5px 15px;
+  text-align: left;
+  border: 1px solid #000;
+}
+
+.pandago-icons .ic {
+  font-size: 30px;
+}

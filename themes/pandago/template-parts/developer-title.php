@@ -1,0 +1,1 @@
+<?php _e( 'Sem.lv - Mājas lapas un dizaina izstrāde', PANDAGO_TD ); ?>

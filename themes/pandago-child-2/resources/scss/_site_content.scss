@@ -1,0 +1,14 @@
+.bg-gradient {
+  background: rgb(20,155,179);
+  background: -moz-radial-gradient(circle, rgba(20,155,179,1) 0%, rgba(0,138,156,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(20,155,179,1) 0%, rgba(0,138,156,1) 100%);
+  background: radial-gradient(circle, rgba(20,155,179,1) 0%, rgba(0,138,156,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#149bb3",endColorstr="#008a9c",GradientType=1);
+}
+
+
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

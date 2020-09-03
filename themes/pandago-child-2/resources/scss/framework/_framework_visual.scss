@@ -1,0 +1,110 @@
+// Images
+img,
+.img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+// Images for google maps
+.gm-style img,
+.gm-style .img {
+  max-width: none;
+  max-height: none;
+}
+
+// Text
+// General
+.all-caps,
+.uppercase { text-transform: uppercase; }
+
+.text-decor-none { text-decoration: none !important; }
+
+.list-style-none { list-style-type: none; }
+
+.line-1 { line-height: 1; }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+}
+
+.nowrap { white-space: nowrap; }
+
+.wrap { white-space: initial !important; }
+
+.overflow-hidden { overflow: hidden; }
+
+.nbsp-after:after { content: "\00a0"; }
+
+.bold,
+strong { font-weight: 700; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+// Colors
+.c-primary { color: $c_primary; }
+.c-secondary { color: $c_secondary; }
+
+// Background colors
+.bg-primary { background-color: $c_primary; }
+.bg-secondary { background-color: $c_secondary; }
+
+  // Inline positioning
+.inline-y-c { vertical-align: middle; }
+.inline-y-b { vertical-align: bottom; }
+.inline-y-t { vertical-align: top; }
+.inline-x-c { text-align: center; }
+.inline-x-r { text-align: right; }
+
+  // Cursor
+.select:hover,
+.select *:hover,
+select:hover,
+select *:hover,
+.arrow:hover,
+.arrow *:hover,
+.btn,
+input[type="submit"]:hover {
+  cursor: pointer!important;
+}
+
+  // Buttons
+.btn,
+.wp-block-button__link {
+  position: relative;
+  display: inline-block;
+  padding: 15px 24px 14px;
+  font-family: $f_default, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: transparent;
+  border-radius: 4px;
+  transition: background-color .3s;
+}
+
+// Cookies
+.cc-window .cc-compliance .cc-btn {
+  color: #fff;
+  background: $c_primary;
+  transition: background .3s;
+}
+
+.cc-window .cc-compliance .cc-btn:hover { background: lighten($c_primary, 10%); }
+
+
+
+.cc-window .cc-link { color: $c_primary; }

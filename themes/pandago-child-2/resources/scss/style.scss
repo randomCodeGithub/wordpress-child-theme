@@ -1,0 +1,45 @@
+// Theme variables
+// Layout
+$site_width: 1300px;
+
+// Size between columns
+$gutters: (
+	xl: 30px,
+	lg: 30px,
+	md: 30px,
+	sm: 30px,
+	xs: 30px
+);
+
+// Typography
+$c_default: #242a30;
+$c_primary: #f07548;
+$c_secondary: #3a9fba;
+
+$f_default: 'Roboto', sans-serif;
+$f_special: 'Dosis', sans-serif;
+
+// Responsive setup
+$breakpoints: (
+	xl: 1360px,
+	lg: 1100px,
+	md: 768px,
+	sm: 480px,
+	xs: 0
+);
+
+$breakpoint_xl: map-get($breakpoints, xl) - 1;
+$breakpoint_lg: map-get($breakpoints, lg) - 1;
+$breakpoint_md: map-get($breakpoints, md) - 1;
+$breakpoint_sm: map-get($breakpoints, sm) - 1;
+
+// Framework
+@import 'framework/framework_layout';
+@import 'framework/framework_page';
+@import 'framework/framework_print';
+@import 'framework/framework_visual';
+
+// Theme
+@import 'typography';
+@import 'header_footer';
+@import 'site_content';
